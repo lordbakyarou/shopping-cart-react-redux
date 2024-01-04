@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Mulish:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+
+  box-sizing: border-box;
+}
+
+.navbar h3 a {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  text-decoration: none;
+}
+
+.pages {
+  display: flex;
+  gap: 30px;
+
+  list-style-type: none;
+}
+
+.pages li a {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  text-decoration: none;
+}
+
+.home {
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  gap: 20px;
+}
+
+.item-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+
+  justify-content: flex-start;
+
+  gap: 40px;
+
+  padding-top: 30px;
+
+  align-items: flex-start;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #fcf7f8;
+
+  box-shadow: 0px 12px 13px 0px rgba(0, 0, 0, 0.25);
+  width: 340px;
+  gap: 20px;
+  box-sizing: content-box;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.item img {
+  width: 340px;
+  height: 360px;
+  background-size: cover;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  color: #000;
+}
+
+.detail h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  overflow: hidden;
+
+  height: 20px;
+}
+
+.add-to-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background: #31b073;
+
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+
+  color: #fff;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border: none;
+  cursor: pointer;
+}
+
+.cart {
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  gap: 20px;
+}
+
+.cart-items {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.checkout-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: black;
+  color: white;
+  height: fit-content;
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: 40px;
+  gap: 20px;
+
+  border-radius: 10px;
+}
+
+.checkout-button {
+  display: flex;
+  width: fit-content;
+
+  color: #000;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+  background-color: white;
+
+  border: none;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.indi-list {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  gap: 200px;
+  justify-content: space-between;
+}
+
+.border {
+  border: 1px solid white;
+  width: 350px;
+}
+
+.cart .items .item button {
+  background-color: #ff0800;
+  cursor: pointer;
+}
+
+.no-items {
+  display: flex;
+  color: #000;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+}
